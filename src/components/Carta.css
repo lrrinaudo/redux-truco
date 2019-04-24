@@ -1,0 +1,26 @@
+.carta {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+  }
+
+  /* cartajugada */
+.carta.jugada {
+  opacity: 0.5;
+  background: brown;
+}
+
+.carta.jugada > div {
+  background: rgb(50, 15, 15);
+  border: none;
+}
+
+/* carta oculta (oponente */
+.carta.oponente {
+  background: brown;
+}
+
+.carta.oponente > div {
+  background: rgb(50, 15, 15);
+  border: none;
+}
